@@ -1,0 +1,11 @@
+.Snowflake {
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  color: white;
+  font-family: Arial;
+  font-style: normal;
+  text-shadow: 0 0 1px #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}

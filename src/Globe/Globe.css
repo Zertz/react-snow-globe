@@ -1,0 +1,25 @@
+.SnowGlobe {
+  display: block;
+}
+
+.SnowGlobe > .Globe {
+  display: block;
+  border-radius: 50%;
+  background-color: #fefefe;
+  max-width: 500px;
+  max-height: 500px;
+  width: 75vmin;
+  height: 75vmin;
+}
+
+.SnowGlobe > .Base {
+  background-image: linear-gradient(to top, rgba(22, 22, 22, 0.375), transparent);
+  background-color: #a0522d;
+  border-top-left-radius: 12em;
+  border-top-right-radius: 12em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  margin: -7.5vmin 0 0 -5vmin;
+  width: calc(100% + 10vmin);
+  height: 20vmin;
+}
