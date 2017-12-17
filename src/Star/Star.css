@@ -1,0 +1,7 @@
+.Star {
+  background-image: radial-gradient(circle at center, rgba(255, 255, 255, 0.875), rgba(255, 255, 255, 0.125) 25%, transparent);
+  border-radius: 50%;
+  width: 12.5px;
+  height: 12.5px;
+  position: absolute;
+}

@@ -1,0 +1,36 @@
+.Ground {
+  background-color: #fefefe;
+  border-radius: 100%;
+  filter: blur(1px);
+  width: 100vw;
+  height: 20vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.Ground:before, .Ground:after {
+  content: "";
+  filter: blur(1px);
+  position: absolute;
+}
+
+.Ground:before {
+  background-color: #fcfcfc;
+  border-top-right-radius: 75%;
+  min-width: 500px;
+  width: 45vw;
+  height: 65vh;
+  bottom: -32.5vh;
+  left: 0;
+}
+
+.Ground:after {
+  background-color: #fafafa;
+  border-top-left-radius: 75%;
+  min-width: 500px;
+  width: 45vw;
+  height: 60vh;
+  bottom: -30vh;
+  right: 0;
+}

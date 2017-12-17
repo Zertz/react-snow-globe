@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 
 import './Globe.css'
 
-class Globe extends Component {
+class Globe extends PureComponent {
   render () {
     return (
       <div className='SnowGlobe'>
         <div className="Globe" />
-        <div className='Base' />
+        {/* <div className='Base' /> */}
       </div>
     )
   }

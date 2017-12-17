@@ -1,0 +1,58 @@
+.Tree {
+  position: absolute;
+}
+
+.Tree > .Leaves {
+  border-radius: 0.25em;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.Tree > .Leaves:nth-child(1) {
+  border-right: 2.5em solid transparent;
+  border-bottom: calc((2.5em + 2.5em) * 0.625) solid #30cb00;
+  border-left: 2.5em solid transparent;
+  top: 0;
+  left: -2.5em;
+}
+
+.Tree > .Leaves:nth-child(2) {
+  border-right: 3.75em solid transparent;
+  border-bottom: calc((3.75em + 3.75em) * 0.625) solid #30cb00;
+  border-left: 3.75em solid transparent;
+  top: 1em;
+  left: -3.75em;
+}
+
+.Tree > .Leaves:nth-child(3) {
+  border-right: 5em solid transparent;
+  border-bottom: calc((5em + 5em) * 0.625) solid #30cb00;
+  border-left: 5em solid transparent;
+  top: 2em;
+  left: -5em;
+}
+
+.Tree > .Leaves:nth-child(3) + .Trunk {
+  top: 8.25em;
+}
+
+.Tree > .Leaves:nth-child(4) {
+  border-right: 6.25em solid transparent;
+  border-bottom: calc((6.25em + 6.25em) * 0.625) solid #30cb00;
+  border-left: 6.25em solid transparent;
+  top: 3em;
+  left: -6.1875em;
+}
+
+.Tree > .Leaves:nth-child(4) + .Trunk {
+  top: 10.8125em;
+}
+
+.Tree > .Trunk {
+  background-color: #006203;
+  width: 1.25em;
+  height: 1.75em;
+  position: absolute;
+  left: -0.625em
+}
